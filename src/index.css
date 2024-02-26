@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::placeholder {
+  font-size: 1rem;
+  padding: 10px;
+}
+.body {
+  height: 100vh;
+  background-color: #d8cbbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.addNotesText {
+  width: 70%;
+  font-size: 1rem;
+  padding: 10px;
+
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #f59e0b;
+}
+
+.AddnotesBTN {
+  width: 10%;
+  padding: 8px;
+  border: none;
+  background-color: #a3e635;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.head {
+  display: flex;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #fbec5d;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+.todoBox {
+  border: 10px solid #f59e0b;
+  background-color: #e9e5e1;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 30px 30px 8px 10px;
+}
+.NotesLists {
+  /* border: solid red; */
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.notesBox {
+  background-color: #eef0ef;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.removeBtn {
+  border: none;
+  border-radius: 5px;
+  background-color: orangered;
+  width: 30%;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
