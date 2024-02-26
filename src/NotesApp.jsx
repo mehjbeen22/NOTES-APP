@@ -55,7 +55,6 @@ function App() {
                     className="removeBtn"
                     onClick={() => removeElement(id)}
                   >
-                    {" "}
                     Remove
                   </button>
                 </div>
